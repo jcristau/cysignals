@@ -1,0 +1,5 @@
+python-cysignals (1.1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 04 Apr 2016 11:49:14 +0200
