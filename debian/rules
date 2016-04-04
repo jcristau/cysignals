@@ -2,3 +2,7 @@
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	sed -i s,usr/local,usr, debian/tmp/usr/lib/python*/*/cysignals/__init__.pxd
